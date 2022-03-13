@@ -1,0 +1,60 @@
+nav {
+  width: 100vw;
+  height: 6vh;
+  background-color: #f9f9f9;
+  border: 1px solid #e6e7e8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.branding {
+  font-size: 1.3rem;
+}
+.logo-brand {
+  display: flex;
+  align-items: center;
+}
+.nav-center {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-center > button {
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.nav-right {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.nav-right > button {
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.total-product {
+  background-color: red;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 66px;
+  top: -2px;
+}
+.divide-vertical {
+  width: 1px;
+  height: 30px;
+  background-color: #e6e7e8;
+}

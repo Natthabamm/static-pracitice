@@ -1,0 +1,25 @@
+* {
+  font-family: Ubuntu;
+}
+section {
+  background-color: #f9f9f9;
+  height: 94vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-content {
+  height: 700px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 1.8rem;
+  margin-top: 50px;
+}
+.right-content {
+  height: 480px;
+  width: 600px;
+}
